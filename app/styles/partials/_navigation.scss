@@ -1,0 +1,35 @@
+#accordion {
+    position: absolute;
+    width: 18em;
+    top: 2em
+}
+
+#accordion .btn {
+    position: relative;
+    height: 1.1em;
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f1f1
+}
+
+#accordion .content {
+    position: relative;
+    display: none;
+    list-style: none
+}
+
+#accordion .content li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0
+}
+
+#accordion .content li a {
+    text-decoration: none;
+    color: #30383a
+}
+
+#accordion .content li a:hover {
+    color: #f1f1f1;
+    background-color: #30383a
+}

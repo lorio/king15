@@ -1,0 +1,54 @@
+
+.contact_form {
+    border-left: 10px dashed #ed541b
+}
+
+.contact_form input,textarea {
+    border: 1px dotted #ed541b;
+    line-height: 2em;
+    padding-left: .4em
+}
+
+.contact_form textarea {
+    width: 90%;
+    line-height: 1.2em
+}
+
+.contact_form,.contact_form ul li {
+    margin: 20px;
+    list-style: none
+}
+
+.contact_form li:nth-of-type(4) {
+    margin-top: 25px;
+    width: 100%
+}
+
+input.verif_box {
+    display: inline-block;
+    margin-right: 5px
+}
+
+input[type="submit"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(88,210,234,0.5);
+    color: white;
+    text-shadow: -1px -1px #000,1px 1px silver;
+    box-shadow: inset -3px -3px 3px rgba(0,0,0,0.3)
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(186,2,17,0.8);
+    color: #000;
+    text-shadow: -1px -1px silver,1px 1px #ba0211
+}
+
+img.verif_img {
+    width: 50px;
+    height: 30px;
+    vertical-align: bottom
+}

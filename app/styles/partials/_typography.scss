@@ -1,0 +1,51 @@
+nav,h1,h2 {
+    font-family: "Black Ops One","Lucida Sans Unicode","Lucida Grande",sans-serif
+}
+
+p {
+    font-family: "SansationRegular",Verdana,arial,sans-serif
+}
+
+figcaption {
+    font: 13px "SansationLight"
+}
+
+figcaption em {
+    font-family: "SansationLightItalic"
+}
+
+em {
+    font-family: "SansationItalic"
+}
+
+strong {
+    font-family: "SansationBold"
+}
+
+strong em {
+    font-family: "SansationBoldItalic"
+}
+
+a {
+    color: blue
+}
+
+a:visited {
+    color: rgba(0,0,255,0.2)
+}
+
+a:focus {
+    color: rgba(0,0,255,0.2)
+}
+
+a:hover {
+    color: rgba(0,0,255,0.5)
+}
+
+a:active {
+    color: rgba(0,0,255,0.5)
+}
+.bluegray {
+    color: #30383a;
+    font-size: .8em
+}

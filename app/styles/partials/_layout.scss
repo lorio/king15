@@ -24,33 +24,34 @@ html,body {
 .container {
     max-width: 80em;
     margin: 0 auto;
-    display: table;
+    /* display: table; */
     background-color: #f1f1f1;
     color: #000
 }
 
 header {
     width: 100%;
-    margin: 0 auto;
+    margin: 1em auto;
     background-color: $pink-ish;
-    text-align: center;
-    position: relative
+    position: relative;
+    border-radius: 5px;
     h1 {
-        padding-top: 2em;
-        text-align: center
+        padding: 10px 5px 5px;
+        text-align: left;
+        font-size: 2em;
     }
 }
-section {
+/* section {
     content: "";
     display: table;
     clear: both
-}
+} */
 
 .col-left {
     position: relative;
     float: left;
-    margin: 0 1em 0 percentage(-2/8);
-    width: percentage(2/12);
+    /* margin: 0 1em 0 percentage(-2/8);  */
+    width: 300px;
     /* float: none;
     clear: both;
     width: percentage 2/12
@@ -58,45 +59,68 @@ section {
 }
 .col-right {
     float: right;
-    width: percentage 3/12;
-}
+    width: percentage(3/12);
+    padding-left: percentage(.33/12);
 
+}
 .col-mid {
     position: relative;
-    width: percentage 7/12;
-    /* float: left; *
-    margin-right: -100%;
-    margin-left: 34.04255%;
-    clear: none;
-    text-align: justify;
-    font-size: 1.2em;
-    color: #000;
-    float: none;
-    clear: both;
-    margin-top: 3.5em;
-    margin-bottom: 2em;*/
-    padding: 0 percentage(2/12);
-}
-
-#wrapper footer {
-    position: absolute;
-    clear: both;
-    bottom: 0px;
+    width: percentage(6/12);
+    float: left;
+    margin-right: -100%; 
     text-align: center;
-    background-color: #f1f1f1;
-    height: 4em;
-    width: 100%
+    padding: 0 percentage(1/12);
 }
-
+nav {
+  margin-top: 400px;
+}
+.thumb {
+  display: inline;
+}
+#wrapper footer {
+  position: absolute;
+  clear: both;
+  bottom: 0px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 4em;
+  width: 100%
+}
+.framed {
+  padding: 2px;
+  border: 3px groove #F5A623;
+}
 #wrapper footer small {
-    text-align: center
+  text-align: center
+}
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after { 
+   clear: both;
+  }
+}
+ 
+.row {
+    position: relative;
+    @extend %clearfix;
+}
+.box {
+  margin-bottom: 12px;
+  background-color: $pink-ish;
+  padding: 1em;
+  border-radius: 5px;
+  img:not(.framed) {
+    margin: 7px;
+    &:first-of-type {
+        padding-right: 5px;
+    } 
+  }
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both
-}
 
 .push {
     height: 4em;

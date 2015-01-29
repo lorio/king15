@@ -45,7 +45,13 @@ a:hover {
 a:active {
     color: rgba(0,0,255,0.5)
 }
+.tagline {
+    font: .8em SansationBold; 
+}
 .bluegray {
     color: #30383a;
     font-size: .8em
+}
+.icon-new-tab:before {
+    content: "\ea7e";
 }

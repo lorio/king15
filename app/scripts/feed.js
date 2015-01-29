@@ -1,5 +1,5 @@
-/* $(function() {
-        var path = "http://blog.specialapple.com/?feed=rss2";
+ /*$(function() {
+        var path = "http://blog.basilking.net/?feed=rss2";
         
         $.get("getfile.php", {u:path}, function(data){
           

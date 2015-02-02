@@ -35,8 +35,9 @@ header {
     background-color: $pink-ish;
     position: relative;
     border-radius: 5px;
+    @include box-emboss(0.8, 0.1);
     h1 {
-        padding: 10px 5px 5px;
+        padding: 10px 5px 5px; 
         text-align: left;
         font-size: 2em;
     }
@@ -89,6 +90,7 @@ nav {
 .framed {
   padding: 2px;
   border: 3px groove #F5A623;
+  margin-bottom: 20px;
 }
 #wrapper footer small {
   text-align: center
@@ -111,9 +113,12 @@ nav {
 .box {
   margin-bottom: 12px;
   background-color: $pink-ish;
-  padding: 1em;
   border-radius: 5px;
+  @include box-emboss(0.8, 0.1);
+  padding: 1em;
+  p {text-align: left}
   img:not(.framed) {
+    width: 35%;
     margin: 7px;
     &:first-of-type {
         padding-right: 5px;

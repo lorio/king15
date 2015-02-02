@@ -1,5 +1,5 @@
 $bg-color: #F1F1F1; //pearly 
-$pink-ish: #FAF6F6;
+$pink-ish: #FbF9F9;
 $bluegray: #30383A;
 $ltgray: rgba(102, 107, 119, 0.3);
 $font-color: black; 
@@ -18,3 +18,13 @@ $light-font-weight: 200;
 
 $display: $h-font-family;
 $main: $base-font-family;
+
+@function black($opacity){
+    @return rgba(0,0,0,$opacity)
+}
+@function white($opacity){
+    @return rgba(255,255,255,$opacity)
+}
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}

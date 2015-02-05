@@ -1,5 +1,4 @@
 // bower:scss
-$fa-font-path: "/bower_components/font-awesome/fonts";
 // endbower
 
 @import "partials/normalize";
@@ -9,5 +8,4 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import "partials/layout";
 @import "partials/navigation";
 @import "partials/components";
-/* @import "partials/forms"; */
-
+@import "partials/media";

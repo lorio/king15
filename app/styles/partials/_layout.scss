@@ -42,27 +42,15 @@ header {
         font-size: 2em;
     }
 }
-/* section {
-    content: "";
-    display: table;
-    clear: both
-} */
-
 .col-left {
     position: relative;
     float: left;
-    /* margin: 0 1em 0 percentage(-2/8);  */
     width: 300px;
-    /* float: none;
-    clear: both;
-    width: percentage 2/12
-    margin-top: 1.5em */
 }
 .col-right {
     float: right;
     width: percentage(3/12);
     padding-left: percentage(.33/12);
-
 }
 .col-mid {
     position: relative;
@@ -125,8 +113,6 @@ nav {
     } 
   }
 }
-
-
 .push {
     height: 4em;
     clear: both

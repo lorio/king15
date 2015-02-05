@@ -17,7 +17,7 @@ gulp.task('styles', function () {
       style: 'expanded',
       precision: 10
     }))
-    .pipe($.autoprefixer({browsers: ['last 1 version']}))
+    .pipe($.autoprefixer({browsers: ['last 2 versions', 'safari 5.1', 'ie 10']}))
     .pipe(gulp.dest('.tmp/styles'));
 });
 

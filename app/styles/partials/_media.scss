@@ -1,0 +1,43 @@
+@media only all and (max-width: 46em) {
+	img {width: 98%}
+	img:not(.framed) {width: 58%}
+	nav,
+	h2 img {display: none}
+	.col-left,
+	.col-mid,
+	.col-right { 
+		float: none;
+		width: 100%;
+	}
+	h1 {margin-left: 10px}
+	.col-left {margin-left: 12px;}
+}
+
+/* @media (min-width: 25em) and (max-width: 48em) {
+	.col-left, 
+	.col-mid,
+	.col-right {
+		float: none;
+		width: 98%;
+	}
+	nav {display: none;}
+	.col-left: {padding-left: 2px;}
+
+} */
+@media (min-width: 46em) and (max-width: 60em) {
+	.col-right {float: none;}
+	.col-right, 
+	.col-left, 
+	.col-right {padding-left: 2em}
+	header {padding-left: 1.6em}
+}
+@media (min-width: 60em) and (max-width: 88em) {
+	header,
+	.col-left {padding-left: 1em;}
+	.col-right {padding-right: 1em;}
+	.col-mid {
+		padding: 0;
+		width: 42%;
+		transition: all 0.5s linear
+	}
+}

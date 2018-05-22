@@ -58,7 +58,7 @@ header {
     float: left;
     margin-right: -100%; 
     text-align: center;
-    padding: 0 percentage(1/12);
+    padding: 0;
 }
 nav {
   margin-top: 400px;
@@ -79,6 +79,11 @@ nav {
   padding: 2px;
   border: 3px groove #F5A623;
   margin-bottom: 20px;
+}
+.home-img {
+  margin-top: 30px;
+  width: 90%;
+  
 }
 #wrapper footer small {
   text-align: center
@@ -103,14 +108,14 @@ nav {
   background-color: $pink-ish;
   border-radius: 5px;
   @include box-emboss(0.8, 0.1);
-  padding: 1em;
+ /*  padding: 1em; */
   p {text-align: left}
   img:not(.framed) {
-    width: 35%;
+    width: 45%;
     margin: 7px;
-    &:first-of-type {
-        padding-right: 5px;
-    } 
+  /*   &:first-of-type {
+        padding-right: 5px; 
+    } */
   }
 }
 .push {

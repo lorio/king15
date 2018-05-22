@@ -1,6 +1,7 @@
 @media only all and (max-width: 46em) {
 	img {width: 98%}
-	img:not(.framed) {width: 58%}
+	img.home-img {width: 98%}
+	img:not(.framed) {width: 98%}
 	nav,
 	h2 img {display: none}
 	.col-left,

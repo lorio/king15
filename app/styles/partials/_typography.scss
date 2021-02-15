@@ -1,54 +1,67 @@
-nav,h1,h2 {
-    font-family: "Black Ops One","Lucida Sans Unicode","Lucida Grande",sans-serif
+nav,
+h1,
+h2 {
+  font-family: "Black Ops One", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: $bluegray;
 }
+
 p {
-    font-family: "SansationRegular",Verdana,arial,sans-serif
+  font-family: "SansationRegular", sans-serif;
+  font-weight: 400;
 }
 
 figcaption {
-    font: 13px "SansationLight"
+  font: 13px "SansationLight", sans-serif;
+  font-weight: 400;
 }
 
 figcaption em {
-    font-family: "SansationLightItalic"
+  font-family: "SansationLightItalic", sans-serif;
+  font-weight: 400;
 }
 
 em {
-    font-family: "SansationItalic"
+  font-family: "SansationItalic", sans-serif;
+  font-weight: 400;
 }
 
 strong {
-    font-family: "SansationBold"
+  font-family: "SansationBold", sans-serif;
+  font-weight: 600;
 }
 
 strong em {
-    font-family: "SansationBoldItalic"
+  font-family: "SansationBoldItalic", sans-serif;
+  font-weight: 600;
 }
 
 a {
-    color: blue
+  color: blue;
+  font-family: "SansationLight", Verdana, arial, sans-serif;
+  font-weight: 400;
 }
 
 a:visited {
-    color: rgba(0,0,255,0.2)
+  color: rgba(0, 0, 255, 0.2)
 }
 
 a:focus {
-    color: rgba(0,0,255,0.2)
+  color: rgba(0, 0, 255, 0.2)
 }
 
 a:hover {
-    color: rgba(0,0,255,0.5)
+  color: rgba(0, 0, 255, 0.5)
 }
 
 a:active {
-    color: rgba(0,0,255,0.5)
-}
-.tagline {
-    font: .8em SansationBold; 
-}
-.bluegray {
-    color: #30383a;
-    font-size: .8em
+  color: rgba(0, 0, 255, 0.5)
 }
 
+.tagline {
+  font: bold 0.8em "SansationBold", sans-serif;
+}
+
+.bluegray {
+  color: #30383a;
+  font-size: .8em
+}

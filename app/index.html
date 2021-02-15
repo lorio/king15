@@ -18,6 +18,9 @@
     <!-- endbuild -->
     <style>@media only all and (min-width: 46em).col-right{padding-left:0;}</style>
     <script src="js/modernizr.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="js/menu.js"></script>
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -27,33 +30,29 @@
     <div id="wrapper">
       <div class="container">
         <header>
-          <h1>King <span class="tagline"> Art and Writing</span></h1>
+          <h1>Basil King <span class="tagline"> Art and Writing |</span> Martha King <span class="tagline"> Writing</span></h1>
         </header>
     <!-- end #header -->
         <section class="row"> 
           <div class="col-left">
             <h2>Basil King</h2>
             <h3>Painter, Writer</h3>
-            <p><a href="art.html"><strong>Art</strong></a></p>
-            <p><a href="writingBK.html"><strong>Writing</strong></a></p>
-            <p><a href="https://vimeo.com/tawilproductions/miragefilm" target="_blank"><strong>Basil King: Mirage</strong></a> trailer*</p>
-            <p><a href="contact.php"><strong>*Contact us</strong></a> to view the complete film or purchase the BlueRay disc.</p>
-            <p><em>Fourth Street,</em> 2017 &#10148;<br>
-            from "Mirage II" series<br>
-            Mixed media on Masonite<br>
-            24 x 30 in.</p>         
+            <p><a href="art.html">Art</a></p>
+            <p><a href="writingBK.html">Writing</a></p>
+            <p><a href="https://vimeo.com/tawilproductions/miragefilm" target="_blank">Basil King: Mirage</a> trailer*</p>
+            <p><a href="contact.php">*Contact us</a> to view the complete film or purchase the BlueRay disc.</p>
+            <p>New paintings by Basil King &#10148;<br>
+            Oil on canvas<br>
+            2020</p>         
           </div>
           
           <div class="col-mid">
-            <!-- <div class="box"> -->
-              <img class="home-img" src="images/fourthSt.jpg" alt="abstract">
-<!--             </div> -->
+              <a data-flickr-embed="true" data-context="true" href="https://www.flickr.com/photos/67642740@N08/50747583658/in/album-72157717478487468/" title="Inside - Outside, 4th Street"><img src="https://live.staticflickr.com/65535/50747583658_72a7bc0551_z.jpg" width="458" height="640" alt="Inside - Outside, 4th Street"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
           </div>
           <div class="col-right">
             <h2>Martha Winston King</h2>
             <h3>Writer</h3>
             <p><strong><a href="writingMWK.html">Prose and Poetry</a></strong></p>
-            <p><strong><a href="https://www.facebook.com/prose.pros">Prose Pros (Facebook)</a></strong></p>
             <p><strong><a href="http://www.blog.basilking.net">King Ink Blog</a></strong></p>
             <div id="rss" class="box"></div>
           </div>
@@ -105,16 +104,15 @@
             <h2>Featured online
               <img src="images/ext.svg" alt="external link">
             </h2>
-            <p><strong><a href="https://www.talismanmag.net/kimmelmanintroduction.html">Special section: Talisman #48</a></strong></p>
-            <p><strong><a href="http://donyorty.com/blog/2017/09/14/basil-king-reads-history-now/">Don Yorty Explorations</a></strong></p>
-            <p><strong><a href="https://localknowledgemag.com/">Local Knowledge</a></strong></p>
-            <p><strong><a href="http://dispatchespoetrywars.com/commentary/2017/07/another-somewhere-visual-art-basil-king/">Dispatches</a></strong></p>
-            <p><strong><a href="https://lunarchandelier.blogspot.com/p/basil-king.html">Lunar Chandelier</a></strong></p>
-            <p><strong><a href="http://poeticsresearch.com/article/joshua-a-w-gardner-reviews-basil-king/">Journal of Poetic Research</a></strong></p>
-            <p><strong><a href="http://jacketmagazine.com/40/king-martha-black-mountain.shtml">Jacket #40</a></strong></p>
-            <p><strong><a href="https://www.youtube.com/watch?v=PY9or-cZVQU">Basil King: A Speaking Portrait</a></strong></p>
-            <p><strong><a href="http://writing.upenn.edu/pennsound/x/King-Basil.php">Basil King on Penn Sound</a></strong></p>
-            <p><a href="https://galatearesurrects2018.blogspot.com/"><strong>Galatea Resurrects</strong></a></p>
+            <p><a href="https://talisman46.weebly.com/kimmelmanintroduction.html">Special section: Talisman #46</a></strong></p>
+            <p><a href="http://donyorty.com/blog/2017/09/14/basil-king-reads-history-now/">Don Yorty Explorations</a></p>
+            <p><a href="https://localknowledgemag.com/">Local Knowledge</a></p>
+            <p><a href="http://dispatchespoetrywars.com/commentary/2017/07/another-somewhere-visual-art-basil-king/">Dispatches</a></p>
+            <p><a href="https://lunarchandelier.blogspot.com/p/basil-king.html">Lunar Chandelier</a></p>
+            <p><a href="http://jacketmagazine.com/40/king-martha-black-mountain.shtml">Jacket #40</a></p>
+            <p><a href="https://www.youtube.com/watch?v=PY9or-cZVQU">Basil King: A Speaking Portrait</a></p>
+            <p><a href="http://writing.upenn.edu/pennsound/x/King-Basil.php">Basil King on Penn Sound</a></p>
+            <p><a href="http://galatearesurrects2018.blogspot.com/2018/05/featured-essay-martha-king.html">Galatea Resurrects</a></p>
           </div>
         </section> <!-- end row -->
    </div><!-- end #container -->
@@ -122,7 +120,7 @@
  <div class="push"></div>
    
       <footer>
-        <small> &copy;2015 basilking.net</small>
+        <small> &copy;2019 basilking.net | Martha photo: Kim Lyons</small>
       </footer><!-- end #footer -->
     </div><!--  end #wrapper  -->
 
@@ -138,13 +136,13 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- <script src="../bower_components/jquery/dist/jquery.js"></script> -->
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <script src="js/menu.js"></script>
+       <!--  <script src="js/menu.js"></script> -->
         <!-- endbuild -->
 </body>
 </html>
